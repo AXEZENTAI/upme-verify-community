@@ -1,0 +1,33 @@
+{
+  "type": "vipr_bundle",
+  "format": "VIPR-like-bundle-v1",
+  "solver": "Generic/SCIP-style",
+  "claimed_bound": {
+    "type": "optimal_objective",
+    "value": 12345
+  },
+  "artifacts": {
+    "solver_log.txt": {
+      "content": "Solver transcript excerpt (demo): proof logging enabled.",
+      "sha256": "32cf26578dc9b8feca69d5c97a1f4230e96d9550770587c06effe156b4ba004c"
+    },
+    "vipr_steps.txt": {
+      "content": "VIPR-like steps (demo): node bounds, cut log, final bound.",
+      "sha256": "692a61eb5694ae64b01e9104ea3d62a45b8e5587f88a8e579a5dfe5dcb7f1c0f"
+    }
+  },
+  "ledger": [
+    {
+      "event": "node",
+      "id": 1,
+      "bound": 20000
+    },
+    {
+      "event": "final",
+      "bound": 12345
+    }
+  ],
+  "metadata": {
+    "note": "Structural bundle verification demo (not full VIPR semantics)."
+  }
+}

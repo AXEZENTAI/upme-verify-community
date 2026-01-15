@@ -1,0 +1,33 @@
+{
+  "name": "lp_small_demo",
+  "type": "lp",
+  "lp": {
+    "A": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "b": [
+      1,
+      1,
+      1
+    ],
+    "c": [
+      2,
+      1
+    ]
+  },
+  "metadata": {
+    "domain": "operations research",
+    "note": "Minimize 2x1 + x2 subject to Ax<=b, x>=0. Trivial optimum at x=(0,0)."
+  }
+}

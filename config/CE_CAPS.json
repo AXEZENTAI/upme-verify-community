@@ -1,0 +1,9 @@
+{
+  "edition": "Community",
+  "hard_caps": {
+    "max_variables": 10,
+    "max_constraints": 25,
+    "max_nodes": 50000,
+    "notes": "Community Edition is intentionally capped for demo-scale, fully checkable verification. Enterprise removes caps."
+  }
+}

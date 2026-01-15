@@ -1,0 +1,31 @@
+{
+  "type": "pb_bundle",
+  "format": "VeriPB-like-bundle-v1",
+  "claimed_optimum": {
+    "value": 42
+  },
+  "artifacts": {
+    "pb_header.txt": {
+      "content": "PB proof header (demo): constraints count, objective bound.",
+      "sha256": "b6fb09cd7dfd737e15b070df28cff887ea0c89637f3e9b8c1b9bcf3ddee56fb7"
+    },
+    "pb_steps.txt": {
+      "content": "PB steps (demo): inference chain leading to optimum.",
+      "sha256": "4a6acc7275436f9cff8a5ff205ea98874c90d5560bf56069ec07b0a025d798d8"
+    }
+  },
+  "ledger": [
+    {
+      "event": "derive",
+      "line": 10
+    },
+    {
+      "event": "final",
+      "status": "optimal",
+      "value": 42
+    }
+  ],
+  "metadata": {
+    "note": "Structural PB bundle verification demo (not full VeriPB/CakePB semantics)."
+  }
+}
