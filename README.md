@@ -59,4 +59,4 @@ Verification reduces:
 
 ## Enterprise / Government contact
 If you need verification beyond demo-scale, contact:
-**Axezentai@gmail.com**
+**axezentai@gmail.com**
